@@ -24,3 +24,5 @@ The ZIP contains repository contents at its root, so do not place them inside an
 ## Signing limitation
 
 This APK is signed with the temporary Android debug certificate from the successful workflow run. The index matches that certificate. A future APK built in a different workflow run may use a different certificate and therefore may not update this installation. For reliable future updates, configure a persistent release signing key before publishing a later version.
+
+이 프로젝트는 Tachimanga, Mihon, Tachiyomi 또는 대상 웹사이트와 제휴하지 않은 개인용 수정본입니다.
