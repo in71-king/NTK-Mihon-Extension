@@ -1,6 +1,9 @@
 {
   "name": "NTK Personal",
   "badgeLabel": "NTK",
+  "contact": {
+    "website": "https://github.com/in71-king/NTK-Mihon-Extension"
+  },
   "signingKey": "16889fbe0cd450966ce36baf132a4bb7ff9c2fba4734e6f14a980b9a74aca024",
   "extensions": [
     {
