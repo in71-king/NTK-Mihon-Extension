@@ -1,26 +1,27 @@
 # NTK Mihon Extension Repository
 
-Personal Mihon repository containing NTK v1.4.10.
+Mihon용 NTK 확장 저장소입니다.  
+작품의 전체 회차와 목록 페이지를 모두 불러오도록 수정했습니다.
 
-Repository URL for Mihon:
+## Mihon 저장소 주소
 
-```text
 https://raw.githubusercontent.com/in71-king/NTK-Mihon-Extension/refs/heads/main/index.min.json
-```
 
-## Upload with GitHub Codespaces
+## 주요 수정 사항
 
-Create a public GitHub repository named exactly `NTK-Mihon-Extension`, open a Codespace for it, upload `ntk-mihon-repository-v1.4.10.zip`, then run:
+- 여러 페이지로 나뉜 전체 회차 불러오기
+- 작품 목록 페이지네이션 지원
+- 연재 및 완결 작품 필터 지원
+- 장르·요일·플랫폼·정렬 필터 개선
+- WebView 광고 확인 및 이미지 로딩 개선
 
-```bash
-unzip -o ntk-mihon-repository-v1.4.10.zip
-git add apk icon index.json index.min.json README.md
-git commit -m "Publish NTK v1.4.10"
-git push
-```
+## 업데이트 규칙
 
-The ZIP contains repository contents at its root, so do not place them inside an extra folder.
+- APK 수정 시 `versionCode`와 `versionName`을 올립니다.
+- `index.json`과 `index.min.json`의 버전 및 APK 주소도 함께 변경합니다.
+- 기존 설치 위에 업데이트할 수 있도록 동일한 서명 키를 사용합니다.
 
-## Signing limitation
+## 안내
 
-This APK is signed with the temporary Android debug certificate from the successful workflow run. The index matches that certificate. A future APK built in a different workflow run may use a different certificate and therefore may not update this installation. For reliable future updates, configure a persistent release signing key before publishing a later version.
+이 저장소는 개인용 수정본입니다.  
+Mihon, Tachiyomi 또는 대상 웹사이트와 제휴하거나 공식적으로 지원받지 않습니다.
