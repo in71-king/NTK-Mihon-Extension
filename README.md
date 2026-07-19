@@ -1,6 +1,6 @@
 # NTK Mihon Extension Repository
 
-Personal Mihon repository containing NTK v1.4.6.
+Personal Mihon repository containing NTK v1.4.7.
 
 Repository URL for Mihon:
 
