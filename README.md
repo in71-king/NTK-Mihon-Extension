@@ -1,6 +1,6 @@
 # NTK Mihon Extension Repository
 
-Personal Mihon repository containing NTK v1.4.11.
+Personal Mihon repository containing NTK v1.4.12.
 
 Repository URL for Mihon:
 
@@ -10,12 +10,12 @@ https://raw.githubusercontent.com/in71-king/NTK-Mihon-Extension/refs/heads/main/
 
 ## Upload with GitHub Codespaces
 
-Create a public GitHub repository named exactly `NTK-Mihon-Extension`, open a Codespace for it, upload `ntk-mihon-repository-v1.4.11.zip`, then run:
+Create a public GitHub repository named exactly `NTK-Mihon-Extension`, open a Codespace for it, upload `ntk-mihon-repository-v1.4.12.zip`, then run:
 
 ```bash
-unzip -o ntk-mihon-repository-v1.4.11.zip
+unzip -o ntk-mihon-repository-v1.4.12.zip
 git add apk icon index.json index.min.json README.md
-git commit -m "Publish NTK v1.4.11"
+git commit -m "Publish NTK v1.4.12"
 git push
 ```
 
