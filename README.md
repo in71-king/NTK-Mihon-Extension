@@ -1,27 +1,26 @@
 # NTK Mihon Extension Repository
 
-A modified NTK extension repository for Mihon.  
-This version loads all chapter and title-list pages and includes improved filtering support.
+Personal Mihon repository containing NTK v1.4.11.
 
-## Mihon Repository URL
+Repository URL for Mihon:
 
+```text
 https://raw.githubusercontent.com/in71-king/NTK-Mihon-Extension/refs/heads/main/index.min.json
+```
 
-## Key Improvements
+## Upload with GitHub Codespaces
 
-- Loads all chapters across multiple episode pages
-- Supports pagination for title lists
-- Supports ongoing and completed titles
-- Improved genre, weekday, platform, and sorting filters
-- Improved WebView acknowledgment and image loading
+Create a public GitHub repository named exactly `NTK-Mihon-Extension`, open a Codespace for it, upload `ntk-mihon-repository-v1.4.11.zip`, then run:
 
-## Update Rules
+```bash
+unzip -o ntk-mihon-repository-v1.4.11.zip
+git add apk icon index.json index.min.json README.md
+git commit -m "Publish NTK v1.4.11"
+git push
+```
 
-- Increment `versionCode` and `versionName` whenever the APK is updated.
-- Update the version and APK URL in `index.json` and `index.min.json`.
-- Always use the same signing key to allow updates over existing installations.
+The ZIP contains repository contents at its root, so do not place them inside an extra folder.
 
-## Disclaimer
+## Signing limitation
 
-This is an unofficial modification intended for personal use.  
-This project is not affiliated with or endorsed by Mihon, Tachiyomi, or the target website.
+This APK is signed with the temporary Android debug certificate from the successful workflow run. The index matches that certificate. A future APK built in a different workflow run may use a different certificate and therefore may not update this installation. For reliable future updates, configure a persistent release signing key before publishing a later version.
