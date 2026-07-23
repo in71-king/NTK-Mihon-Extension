@@ -1,7 +1,7 @@
 {
   "name": "NTK Personal",
   "badgeLabel": "NTK",
-  "signingKey": "eea6b65c39d89cf9f491a5424abe0f1c872f79db0918b79ee5ad382d48a3a3e8",
+  "signingKey": "92c1a61998f8814fd0ce569e5d64660d14cca7e370bddab5b6ff225ef85b59e6",
   "contact": {
     "website": "https://github.com/in71-king/NTK-Mihon-Extension",
     "discord": null
@@ -12,12 +12,12 @@
         "name": "NTK",
         "packageName": "eu.kanade.tachiyomi.extension.ko.ntk",
         "resources": {
-          "apkUrl": "https://raw.githubusercontent.com/in71-king/NTK-Mihon-Extension/refs/heads/main/apk/tachiyomi-ko.ntk-v1.4.13-debug.apk",
+          "apkUrl": "https://raw.githubusercontent.com/in71-king/NTK-Mihon-Extension/refs/heads/main/apk/tachiyomi-ko.ntk-v1.4.14-debug.apk",
           "iconUrl": "https://raw.githubusercontent.com/in71-king/NTK-Mihon-Extension/refs/heads/main/icon/eu.kanade.tachiyomi.extension.ko.ntk.png"
         },
         "extensionLib": "1.4",
-        "versionCode": 13,
-        "versionName": "1.4.13",
+        "versionCode": 14,
+        "versionName": "1.4.14",
         "contentWarning": "CONTENT_WARNING_NSFW",
         "sources": [
           {
